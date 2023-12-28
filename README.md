@@ -27,8 +27,14 @@ To use this template, you'll need to clone it using a tool like `degit`, which a
 In the example below, we'll use pnpm as our package manager, but you can use npm/bun/yarn if you prefer.
 
 ```bash
-pnpx degit JohnC0de/nextshad-template myapp # You can change "myapp" to whatever you want
-cd myapp # if you changed the name in the previous step, change it here too
+pnpx degit JohnC0de/nextshad-template myapp
+```
+
+```bash
+cd myapp
+```
+
+```bash
 pnpm install
 ```
 
