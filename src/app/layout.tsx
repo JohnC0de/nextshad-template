@@ -24,7 +24,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
           <Navbar />
           <main className="container flex flex-1 flex-col ">{children}</main>
-          <Toaster />
+          <Toaster richColors />
         </ThemeProvider>
       </body>
     </html>
